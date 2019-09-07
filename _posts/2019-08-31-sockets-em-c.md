@@ -260,7 +260,7 @@ necessarios.
 #include <arpa/inet.h>
 ```
 
-Tambem definimos a porta que o servidor que nos vamos se conectar esta ouvindo.
+Nosso servidor esta escutando na porta 5000, por isso, definimos que nosso cliente ira se conectar na porta 5000.
 
 ```c
 #define SERVER_PORT 5000
